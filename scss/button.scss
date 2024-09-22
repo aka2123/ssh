@@ -1,0 +1,135 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100vh;
+	font-family: 'Ubuntu', sans-serif;
+	overflow: hidden;
+	color: #fff;
+	background: linear-gradient(10deg, #2483ff 60%, #2c6afb 60%);
+}
+
+nav{
+	text-align: center;
+	background-color: #fff;
+}
+
+// gdy daję tac na nav to cały element się środkuję 
+// a gdy na nav-item to tylko text jest na srodku nie bg
+
+
+// nav {
+// 	margin-top: 100px;
+// 	background-color: #292929;
+// 	text-align: center;
+// }
+
+// ul {
+// 	list-style: none;
+// 	font-size: 24px;
+// }
+
+// .menu__item {
+// 	display: inline-block;
+// 	width: 300px;
+// 	height: 140px;
+// 	line-height: 140px;
+// 	transition: background-color 0.3s;
+
+// 	.dropdown {
+// 		position: absolute;
+// 		width: 300px;
+
+// 		// co to robi absolute
+
+// 		li {
+// 			display: none;
+// 			opacity: 0;
+// 			background-color: #33332b;
+// 			transition: color 0.3s;
+// 		}
+
+// 		li:hover {
+// 			color: teal;
+// 		}
+// 	}
+// }
+
+// .menu__item:hover {
+// 	background-color: rgb(65, 65, 65);
+// }
+
+// .menu__item:hover .dropdown li {
+// 	display: block;
+// 	animation: drop 0.5s forwards;
+// }
+
+
+// @keyframes drop {
+// 	0% {
+// 		opacity: 0;
+// 		rotate: 20deg;
+// 	}
+// 	100% {
+// 		opacity: 1;
+// 		rotate: 0;
+// 	}
+// }
+
+// .two:hover .dropdown li {
+// 	animation: menu2 0.5s forwards;
+// }
+
+// @keyframes menu2 {
+// 	0% {
+// 		opacity: 0;
+// 		transform: translateX(-30px);
+// 	}
+// 	100% {
+// 		opacity: 1;
+// 		transform: translateX(0);
+// 	}
+// }
+
+// .three:hover .dropdown li {
+// 	animation: menu3 0.5s  forwards ;
+// }
+
+// @keyframes menu3 {
+// 	0% {
+// 		opacity: 0;
+// 		transform:  rotateY(180deg)  translateX(50%);
+// 	}
+	
+	
+// 	100% {
+// 		opacity: 1;
+// 		transform: rotateY(0) translateX(0);
+// 	}
+// }
+
+
+
+
+// // musi być .menu__item:hover przed li bo specyficzność animacji wyżej
+// .menu__item:hover li:nth-child(1) {
+// 	animation-delay: 0.2s;
+// }
+// .menu__item:hover li:nth-child(2) {
+// 	animation-delay: 0.4s;
+// }
+//  li:nth-child(3) {
+// 	animation-delay: 0.6s;
+// }
+// .menu__item:hover li:nth-child(4) {
+// 	animation-delay: 0.8s;
+// }
+// .menu__item:hover li:nth-child(5) {
+// 	animation-delay: 1s;
+// }
+// .menu__item:hover li:nth-child(6) {
+// 	animation-delay: 1.2s;
+// }
